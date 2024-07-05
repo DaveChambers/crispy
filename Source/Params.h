@@ -10,6 +10,7 @@
 
 #pragma once
 #include <JuceHeader.h>
+#include "../stm_dsp/stm_dsp.h"
 
 class Params
 {

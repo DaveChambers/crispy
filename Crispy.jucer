@@ -36,6 +36,72 @@
             file="Source/SaturationVisualizer.h"/>
     </GROUP>
     <GROUP id="{DE5FA1BF-C7AE-FA4C-AC07-1613705D8EB5}" name="Source">
+      <GROUP id="{92B4A946-B680-55CD-D759-BE9678CDBC57}" name="stm_dsp">
+        <GROUP id="{AD84DC90-8725-0CD2-E4E4-B9B853C78C95}" name="analyzers">
+          <FILE id="Z0EyOP" name="stm_LevelAnalyzer.h" compile="0" resource="0"
+                file="Source/stm_dsp/analyzers/stm_LevelAnalyzer.h"/>
+        </GROUP>
+        <GROUP id="{659F7393-7E5F-E4C8-B5FC-7F23E8EA9669}" name="processors">
+          <FILE id="Tgg31x" name="stm_AutoGain.h" compile="0" resource="0" file="Source/stm_dsp/processors/stm_AutoGain.h"/>
+          <FILE id="wWGdXt" name="stm_DCFilter.h" compile="0" resource="0" file="Source/stm_dsp/processors/stm_DCFilter.h"/>
+          <FILE id="ScrLOY" name="stm_DelaySimple.h" compile="0" resource="0"
+                file="Source/stm_dsp/processors/stm_DelaySimple.h"/>
+          <FILE id="K8MtQ2" name="stm_DryWetMix.h" compile="0" resource="0" file="Source/stm_dsp/processors/stm_DryWetMix.h"/>
+          <FILE id="ihapab" name="stm_FrequencyModulator.h" compile="0" resource="0"
+                file="Source/stm_dsp/processors/stm_FrequencyModulator.h"/>
+          <FILE id="s7jlez" name="stm_MatchedBypass.h" compile="0" resource="0"
+                file="Source/stm_dsp/processors/stm_MatchedBypass.h"/>
+          <FILE id="npds73" name="stm_Panner.h" compile="0" resource="0" file="Source/stm_dsp/processors/stm_Panner.h"/>
+          <FILE id="k4YgLy" name="stm_Saturation.h" compile="0" resource="0"
+                file="Source/stm_dsp/processors/stm_Saturation.h"/>
+        </GROUP>
+        <GROUP id="{E47AD3D2-E9C4-B884-1D1A-57BA95478E6F}" name="utilities">
+          <FILE id="k5rxQO" name="stm_Measuring.h" compile="0" resource="0" file="Source/stm_dsp/utilities/stm_Measuring.h"/>
+          <FILE id="RHtwuI" name="stm_Mixer.h" compile="0" resource="0" file="Source/stm_dsp/utilities/stm_Mixer.h"/>
+          <FILE id="qb3Fay" name="stm_Notes.h" compile="0" resource="0" file="Source/stm_dsp/utilities/stm_Notes.h"/>
+          <FILE id="bL8uSV" name="stm_Oscillator.h" compile="0" resource="0"
+                file="Source/stm_dsp/utilities/stm_Oscillator.h"/>
+          <FILE id="x1j8Is" name="stm_ParameterAttachment.h" compile="0" resource="0"
+                file="Source/stm_dsp/utilities/stm_ParameterAttachment.h"/>
+          <FILE id="owq34U" name="stm_Primes.h" compile="0" resource="0" file="Source/stm_dsp/utilities/stm_Primes.h"/>
+          <FILE id="WyxOxd" name="stm_Rampers.h" compile="0" resource="0" file="Source/stm_dsp/utilities/stm_Rampers.h"/>
+          <FILE id="aNCMMd" name="stm_RecircBuffer.h" compile="0" resource="0"
+                file="Source/stm_dsp/utilities/stm_RecircBuffer.h"/>
+          <FILE id="AWmGvd" name="stm_RingBuffer.h" compile="0" resource="0"
+                file="Source/stm_dsp/utilities/stm_RingBuffer.h"/>
+          <FILE id="K9Phtu" name="stm_RollingAverage.h" compile="0" resource="0"
+                file="Source/stm_dsp/utilities/stm_RollingAverage.h"/>
+        </GROUP>
+        <FILE id="Icihkn" name="stm_dsp.h" compile="0" resource="0" file="Source/stm_dsp/stm_dsp.h"/>
+      </GROUP>
+      <GROUP id="{994EF216-D4D3-21CB-6FD0-69F7776043B8}" name="stm_gui">
+        <GROUP id="{548C0722-F44F-D195-0B04-D10FFFF36255}" name="analyzers">
+          <FILE id="aMLPpk" name="stm_LevelMeter.h" compile="0" resource="0"
+                file="Source/stm_gui/analyzers/stm_LevelMeter.h"/>
+        </GROUP>
+        <GROUP id="{EE778E66-BAB0-3A19-5BA5-20F73BF80B37}" name="controls">
+          <FILE id="YmDYPa" name="stm_Slider2Axis.h" compile="0" resource="0"
+                file="Source/stm_gui/controls/stm_Slider2Axis.h"/>
+        </GROUP>
+        <GROUP id="{90DD009E-C2A4-A850-4955-FE70D967794E}" name="displays">
+          <FILE id="c1bfez" name="stm_DebugDisplay.h" compile="0" resource="0"
+                file="Source/stm_gui/displays/stm_DebugDisplay.h"/>
+          <FILE id="a6C0rn" name="stm_DisabledVeil.h" compile="0" resource="0"
+                file="Source/stm_gui/displays/stm_DisabledVeil.h"/>
+          <FILE id="WM5zWx" name="stm_RecircBufferDisplay.h" compile="0" resource="0"
+                file="Source/stm_gui/displays/stm_RecircBufferDisplay.h"/>
+          <FILE id="EpkXin" name="template.h" compile="0" resource="0" file="Source/stm_gui/displays/template.h"/>
+        </GROUP>
+        <GROUP id="{603E9F53-5EA8-5F32-4AED-50276F8EE1A5}" name="icons">
+          <FILE id="WcJeI1" name="stm_FilterIcon.h" compile="0" resource="0"
+                file="Source/stm_gui/icons/stm_FilterIcon.h"/>
+        </GROUP>
+        <GROUP id="{591BDF6C-FB96-D167-9579-4B5B74AD4040}" name="lookandfeel">
+          <FILE id="X25m2w" name="stm_LookAndFeel.h" compile="0" resource="0"
+                file="Source/stm_gui/lookandfeel/stm_LookAndFeel.h"/>
+        </GROUP>
+        <FILE id="t4gedu" name="stm_gui.h" compile="0" resource="0" file="Source/stm_gui/stm_gui.h"/>
+      </GROUP>
       <FILE id="dV51e1" name="Params.h" compile="0" resource="0" file="Source/Params.h"/>
       <FILE id="TaSKBS" name="CrispyLookAndFeel.h" compile="0" resource="0"
             file="Source/CrispyLookAndFeel.h"/>
@@ -69,9 +135,7 @@
         <MODULEPATH id="juce_gui_basics" path="../../../../JUCE/modules"/>
         <MODULEPATH id="juce_gui_extra" path="../../../../JUCE/modules"/>
         <MODULEPATH id="juce_opengl" path="../../../../JUCE/modules"/>
-        <MODULEPATH id="stm_dsp" path="../../ssModules"/>
         <MODULEPATH id="juce_dsp" path="../../../../JUCE/modules"/>
-        <MODULEPATH id="stm_gui" path="../../ssModules"/>
       </MODULEPATHS>
     </XCODE_MAC>
     <VS2019 targetFolder="Builds/VisualStudio2019">
@@ -80,8 +144,6 @@
         <CONFIGURATION isDebug="0" name="Release"/>
       </CONFIGURATIONS>
       <MODULEPATHS>
-        <MODULEPATH id="stm_gui" path="../../juce"/>
-        <MODULEPATH id="stm_dsp" path="../../juce"/>
         <MODULEPATH id="juce_opengl" path="../../juce"/>
         <MODULEPATH id="juce_gui_extra" path="../../juce"/>
         <MODULEPATH id="juce_gui_basics" path="../../juce"/>
@@ -117,8 +179,6 @@
     <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
     <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
     <MODULE id="juce_opengl" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
-    <MODULE id="stm_dsp" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
-    <MODULE id="stm_gui" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
   </MODULES>
   <LIVE_SETTINGS>
     <OSX/>
